@@ -1,0 +1,29 @@
+/* GIGEO ART */
+  nav a.logo {
+      font-size: $xxx-large;
+      font-weight: $regular;
+      h6 {
+        float: right;
+        font-size: small;
+              position: relative;
+      }
+    }
+
+  /* foto yuki */
+nav img {
+    margin: 20px 40px 20px 100px;
+    width: 4%;
+    border-radius:50%;
+    z-index: 1;
+    // flex-basis: 40%;
+  }  
+  .yuki {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    h3 {
+      font-weight: $medium;
+      font-size: $xx-large;
+    }  
+  }

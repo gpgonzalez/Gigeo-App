@@ -1,0 +1,50 @@
+/* foto header */
+header {
+  display: flex;
+  background-image: url(../images/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 60%;
+  width: auto;
+  height: 55vh;
+  max-height: 55vh;
+}
+/* comportamiento en pantalla chica */
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    background-image: url(../images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    width: auto;
+    height: 15vh;
+    max-height: 55vh;
+  }
+  nav img {
+    margin: 20px 40px 20px 40px;
+    width: 80px;
+  }
+  
+  .videos .row .card {     
+      width: 90%;   
+      margin-left: 5%;
+
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .videos {
+    .flex-container {
+      margin-left: 0px;
+      display: flex;
+      flex-direction: column;
+      flex-flow: row wrap;
+      justify-content:center;
+    }
+    .flex-container .diapo {
+      width: 10%;           
+    }
+  }
+}

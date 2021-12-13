@@ -1,0 +1,14 @@
+/* botones Mensaje - Seguir */
+button {  
+    font-size: $small;
+    padding: 6px 12px;
+    color: $white;
+    border: none;
+    &.blue {
+      margin-left: 600px;
+      background: $cyan;
+    }
+    &.red {
+      background: $ired;
+    }
+  }

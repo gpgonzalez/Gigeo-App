@@ -1,0 +1,11 @@
+//@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet';
+@import 'abstracts/variables';
+// vendors
+@import 'vendors/bootstrap-4.6.0/bootstrap';
+// base
+@import 'base/reset';
+@import'components/buttons';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/layout';
